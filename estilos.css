@@ -8,11 +8,17 @@
         font-family: Franklin Gothic Book;
     }
     img{
-        width: 350px;
+        width: 320px;
     }
     nav{
         height: 50px;
         background-color: #005883;
+    }
+    nav .logo{
+        font-family: Franklin Gothic book;
+        color: white;
+        font-size: 15px;
+        line-height: 50px;
     }
     nav ul{
         float: right;
@@ -66,5 +72,20 @@
         position: relative;
         top: -20px;
     }
-   
+   .slider{
+       width: 95%;
+       margin: auto;
+   }
+   .slider ul{
+       padding: 0;
+       display: flex;
+       width: 100%;
+   }
+   .slider li{
+       list-style: none;
+       width: 100%;
+   }
+   .slider img{
+       width: 50%;
+   }
     
