@@ -7,13 +7,16 @@
     body{
         font-family: Franklin Gothic Book;
     }
+    img{
+        width: 350px;
+    }
     nav{
         height: 50px;
         background-color: #005883;
     }
     nav ul{
         float: right;
-        margin-right: 20px;
+        margin-right: 35px;
     }
     nav ul li{
         display: inline-block;
