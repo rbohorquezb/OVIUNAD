@@ -105,7 +105,68 @@
 }
 #video,video{
     margin: 0 auto;
-    padding-top: 10px;
-    width: 500px;
-    height: 280px;
+    padding-top: 5px;
+    width: 450px;
+    height: 260px;
+}
+.twitter-tweet{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 50px;
+    min-height: 20px;
+
+}
+h3{
+    font-family: 'Franklin Gothic Medium';
+    columns: #005883;
+}
+.header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.username{
+    font-size: 18px;
+    color: #005883;
+    margin-top: 14px;
+}
+.socials{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+.socials li {
+    display:inline-block;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: #005883;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+.email{
+    background-image: url(panorama.png);
+}
+.skype{
+    background-image: url(skype.png);
+}
+.codigo{
+    font-size: 18px;
+    color: #005883;
+    margin-top: 14px;
+}
+.programa{
+    font-size: 18px;
+    color: #005883;
+    margin-top: 14px;
 }
