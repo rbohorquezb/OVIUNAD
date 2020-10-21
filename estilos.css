@@ -195,8 +195,10 @@ a {
 .container-all p{
     font-size: 18px;
     font-weight: 300;
-
-
 }
-
-    
+#video2,video2{
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 450px;
+    height: 260px;
+}
