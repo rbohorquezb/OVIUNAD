@@ -175,4 +175,28 @@ a {
     color: #005883;
     margin-top: 14px;
 }
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    border-top: solid 6px #005883;
+}
+.titulo2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #005883;
+    
+}
+.container-all img{
+    width: 200px;
+    float: left;
+}
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+
+
+}
+
     
