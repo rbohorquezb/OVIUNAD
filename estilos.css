@@ -114,6 +114,7 @@
     padding-top: 20px;
     width: 50px;
     min-height: 20px;
+    float: left;
 
 }
 h3{
@@ -204,5 +205,35 @@ h2{
     font-size: 20px;
     color: #005883;
 }
+.wap{
+    width: 90%;
+    margin: auto;
+}
+.bienvenidos{
+    margin-top: 50px;
+    text-align: center;
+    font: 300;
+    size: 50px;
+}
+.contenedor-columnas{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+
+}
+.columnax3{
+    width: 50%;
+    float: left;
+    padding: 20% 20%;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+.titulosimagenes{
+    font-size: 18px;
+    color: #005883;
+    margin-top: 14px;
+}
+
    
 
