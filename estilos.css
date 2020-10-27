@@ -236,6 +236,18 @@ h2{
     color: #005883;
     margin-top: 14px;
 }
+table, th, td{
+    border: 1px solid #005883;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+}
+thead{
+    background-color: #add8e6;
+}
+
+
 
    
 
