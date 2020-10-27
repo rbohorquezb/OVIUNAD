@@ -198,8 +198,10 @@ a {
     font-weight: 300;
 }
 .vid{
-    padding-left: 160px;
+padding-left: 180px;
+    
 }
+
 h2{
     text-decoration-line: overline;
     font-size: 20px;
