@@ -264,16 +264,15 @@ max-width: 1100px;
 .card:hover{
     box-shadow: 5px, 5px 20px rgba(0, 0, 0, 0.4);
 }
-.video1, video{
+.video1{
     margin: 0% auto;
-    padding-top: 40px;
+    padding-left: 160px;
     width: 550px;
     height: 280px;
     padding: 10px;
     position: absolute;
     justify-self: center;
-    align-items: center;
-        
+    text-align: center;
 }
 
 
