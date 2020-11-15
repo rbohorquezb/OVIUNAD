@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
+   
     list-style: none;
     }
     body{
@@ -284,16 +284,17 @@ max-width: 1100px;
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     transform: translate(-50%, -50%);
 }
 .btn{
     width: 300px;
     margin: 30px 0;
-    color: #f08429;
+    color: #fff;
     border-radius: 6px;
     cursor: pointer;
-    background: #005883;
+    background-color: #005883;
+    
 }
 .btn i{
     padding: 0px 20px;
@@ -304,6 +305,10 @@ max-width: 1100px;
 }
 .btn span{
     padding: 0px 20px;
+    
+}
+.html5{
+    background: #005883;
 }
 
 
