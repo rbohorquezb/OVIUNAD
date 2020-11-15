@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
     list-style: none;
     }
     body{
@@ -273,3 +274,12 @@ max-width: 1100px;
     justify-self: center;
     text-align: center;
 }
+.centro{
+    background-color: forestgreen;
+    width: 100%;
+    
+}
+
+
+   
+
