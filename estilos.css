@@ -275,9 +275,10 @@ max-width: 1100px;
     text-align: center;
 }
 .centro{
-    background-color: forestgreen;
+    background: forestgreen;
     width: 100%;
     padding: 30%;
+
 }
 
 
