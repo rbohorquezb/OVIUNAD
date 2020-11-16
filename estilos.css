@@ -289,7 +289,10 @@ max-width: 1100px;
     margin: auto;
     padding: 5px;
     border-top: solid 6px #005883;
-    
+}
+iframe{
+    width: 80%;
+    height: 90vh;
     
 }
 
