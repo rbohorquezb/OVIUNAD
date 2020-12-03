@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #ffff;
+    background-color: #f0b429;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
 }
@@ -31,20 +31,16 @@ nav ul{
 }
 nav ul li a{
     margin: 30px;
-    font-family: Calibri;
-    color: #505050;
+    font-family: 'Franklin Gothic Medium';
+    color: #ffffff;
     font-size: 15px;
     font-weight: 700;
 }
-logo{
-    font-family: Calibri;
+.logo{
+    font-family: 'Franklin Gothic Medium';
     color: #000000;
-    font-size: 50px;
-    font-weight: 400;
-}
-.active{
-    font-weight: bold;
-    color: #2d2a2a;
+    font-size: 20px;
+    font-weight: 250px;
 }
 .text-container p:nth-child(1){
     font-family: Calibri;
@@ -98,7 +94,7 @@ button:active{
     transform: scale(1.1);
 }
 .model{
-    height: 560px;
+    height: 700px;
     position: absolute;
     bottom: 0px;
     left: 70%;
@@ -117,7 +113,7 @@ button:active{
     align-items: center;
 }
 .aboud-container img{
-    height: 250px;
+    height: 180px;
 }
 .aboud-text{
     width: 550px;
@@ -315,7 +311,7 @@ footer p:nth-child(2){
 }
 .copyrgth p{
     color: #565555;
-    font-family: calibri;
+    font-family: 'Franklin Gothic Medium';
     position: absolute;
     bottom: 10%;
     left: 50%;
