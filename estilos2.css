@@ -305,7 +305,8 @@ footer p:nth-child(2){
 .social-icons i{
     color: #000000;
 }
-.social-icons a:hover{
+.social-icons a:hover,
+.a-social-b a:hover{
     background-color: #000000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     transition: all ease 0.5s;
@@ -318,7 +319,8 @@ footer p:nth-child(2){
     left: 50%;
     transform: translateX(-50%);
 }
-.social-icons a:hover i{
+.social-icons a:hover i,
+.a-social-b a:hover i{
     color: #ffffff;
     transition: all ease 0.5s;
 }
@@ -326,7 +328,7 @@ footer p:nth-child(2){
     position: fixed;
     top: 50%;
     right: 0px;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
 }
 .a-social-b a{
     display: flex;
