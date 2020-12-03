@@ -1,6 +1,6 @@
 body{
     background-color: #f6f5f5;
-    margin: 0%;
+    margin: 0px;
     padding: 0px;
 }
 ul{
@@ -15,9 +15,37 @@ section{
     background-image: url("../OVIUNAD/panel.PNG");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: Calibri;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}logo{
+    font-family: Calibri;
+    color: #000000;
+    font-size: 22px;
+}
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
 }
 .text-container p:nth-child(1){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
@@ -30,8 +58,80 @@ section{
     font-size: 60px;
 }
 .text-container p:nth-child(3){
-    font-family: myriad pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Calibri;
     color: #403e3e;
     font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45 px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    margin: 0px 10px; 
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+.down-cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translate(-70%);
+}
+.aboud-container{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display:flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboud-container img{
+    height: 250px;
+}
+.aboud-text{
+    width: 550px;
+}
+.aboud-text p:nth-child(1){
+    color: #403e3e;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.aboud-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: Calibri;
+    font-weight: bold;
+    line-height: 5px;
 }
    
