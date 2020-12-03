@@ -266,8 +266,46 @@ button:active{
     font-size: 14px;
     font-weight: bold;
 }
-.footer{
+footer{
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
-   
+footer p{
+    font-family: calibri;
+}   
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+ 
+}
