@@ -242,13 +242,32 @@ button:active{
 .contact-me{
     width: 100%;
     height: 280px;
-    background-image: url("proyectmind.jpg");
+    background-image: url("proyectmind.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.contact-me p{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+}
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer{
+    height: 300px;
 }
 
    
