@@ -173,6 +173,7 @@ button:active{
 .services-text{
     width: 500px;
     margin: 50px 0px;
+    text-align: justify;
 }
 .box-1,.box-2,.box-3{
     width: 300px;
@@ -250,7 +251,7 @@ button:active{
 .contact-me video{
     width: 45%;
     height: 290px;
-    align-items: center;    
+    align-items: center; 
 }
 footer{
     height: 300px;

@@ -18,8 +18,9 @@ nav{
 nav .logo{
     font-family: Franklin Gothic book;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 50px;
+    padding: 60px 10px;
 }
 nav ul{
     float: right;
@@ -166,7 +167,7 @@ main .sobre-nosotros{
 .cards .card{
     background: #005883;
     display: flex;
-    width: 40%;
+    width: 46%;
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
@@ -181,7 +182,7 @@ main .sobre-nosotros{
     border-radius: 50%;
     display: block;
 }
-.cards .card > .ccontenido-texto-card{
+.cards .card > .contenido-texto-card{
     width: 60%;
     color: #fff;
 
