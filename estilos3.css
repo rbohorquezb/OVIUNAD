@@ -298,15 +298,16 @@
             }
             .textos-header h2{
                 font-size: 20px;
-        }
+            }
 
-        .imagen-aboud-us{
+            .imagen-aboud-us{
             margin-bottom: 60px;
             width: 95%;
+            }
+            .sobre-nosotros .contenido-textos{
+            width: 95%;
+            }
+            .video-port{
+            width: 95%;
+            }
         }
-        .sobre-nosotros .contenido-textos
-        width: 95%;
-            
-        }
-
-    }
