@@ -88,10 +88,14 @@ nav ul ul ul li{
     overflow: hidden;
 }
 .titulo{
-    color: #005883;
+    color: black;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+}
+.rotacion{
+    width: 100%;
+    align-items: center;
 }
     header{
     width: 100%;
@@ -125,24 +129,12 @@ nav ul ul ul li{
     bottom: 0;
     width: 100%;
 }
-.contenedor-sobre-nosotros{
-    display: flex;
-    justify-content: space-evenly;
-}
-.imagen-aboud-us{
-    width: 48%;
-}
-main .sobre-nosotros{
-    padding: 30px 0 60px 0;
-}
-.sobre-nosotros .contenido-textos{
-    width: 48%;
-}
-.contenido-textos h3{
-    margin-bottom: 15px;
+.imagen-about-us{
+    width: 100%;
+    align-items: center;
 }
 .contenido-textos h3 span{
-    background: #005883;
+    background:black;
     color: #ffffff;
     border-radius: 50px;
     display: inline-block;
@@ -171,7 +163,7 @@ main .sobre-nosotros{
     justify-content: space-evenly;
 }
 .cards .card{
-    background: #005883;
+    background: gray;
     display: flex;
     width: 46%;
     height: 200px;
@@ -207,18 +199,12 @@ main .sobre-nosotros{
     align-items: center;
 }
 .servicio-ind{
-    width: 28%;
-    text-align: center;
+    width: 100%;
 }
 .servicio-ind img{
-    width: 90%;
-}
-.servicio-ind h3{
-    margin: 10px 0;
-}
-.servicio-ind p{
-    font-weight: 300;
-    text-align: justify;
+    width: 100%;
+    align-items: center;
+    
 }
     footer{
     background: #414141;
