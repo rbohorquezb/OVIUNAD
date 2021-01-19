@@ -91,8 +91,6 @@
         padding: 0;
         width: 100px;
         height: 100%;
-        color: honeydew;
-        background-color: rgba(0, 22, 40, .7);
         display: flex;
         flex-direction: column;
         
@@ -223,7 +221,7 @@ h2{
 }
 .titulosimagenes{
     font-size: 18px;
-    color: #005883;
+    color: black;
     margin-top: 14px;
 }
 table, th, td{
@@ -273,12 +271,12 @@ max-width: 1100px;
 .titulo3{
     font-size: 25px;
     margin-bottom: 20px;
-    color: #005883;
+    color:black;
     width: 100%;
     max-width: 1000px;
     margin: auto;
     padding: 5px;
-    border-top: solid 6px #005883;
+    border-top: solid 6px black;
 }
 iframe{
     width: 80%;
